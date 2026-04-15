@@ -1,0 +1,11 @@
+# Line endings
+* text=auto
+*.md text
+
+# Binary files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
