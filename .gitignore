@@ -11,12 +11,12 @@ Icon?
 *.tmp
 
 # Obsidian
-.trash/
-.obsidian/cache/
-.obsidian/workspace*
-.obsidian/updates.json
+**/.trash/
+**/.obsidian/cache/
+**/.obsidian/workspace*
+**/.obsidian/updates.json
 
 # Common plugin caches
-.obsidian/plugins/*/cache/
-.obsidian/plugins/*/.cache/
-.obsidian/plugins/*/node_modules/
+**/.obsidian/plugins/*/cache/
+**/.obsidian/plugins/*/.cache/
+**/.obsidian/plugins/*/node_modules/
