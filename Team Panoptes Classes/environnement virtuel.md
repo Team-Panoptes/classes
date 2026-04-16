@@ -58,5 +58,7 @@ Sous Windows :
 venv\Scripts\Activate
 ```
 
+En cas d'[[Erreur de permission d'exécution sous Windows]]
+
 An général, votre terminal devrait indiquer `(venv)` au début de votre invite de commande pour indiquer que l'environnement est actif.
 
