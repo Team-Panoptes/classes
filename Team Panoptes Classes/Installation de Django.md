@@ -41,8 +41,7 @@ pip install django
 
 Pip va ensuite chercher les packages nécessaires (Django et ses dépendances) et les installer.
 
-![[Attachments/django_pip_install.gif]]
-
+![[django_pip_install 1.gif]]
 # Étape 3 : [[Tester votre installation de Django]]
 
 Utilisez la commande suivante dans votre environnement actif :

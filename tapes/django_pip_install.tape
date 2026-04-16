@@ -1,3 +1,4 @@
+Set LoopOffset 99%
 Output django_pip_install.gif
 
 Set FontSize 24
@@ -11,3 +12,4 @@ Sleep 500ms
 Enter
 
 Sleep 10s
+
