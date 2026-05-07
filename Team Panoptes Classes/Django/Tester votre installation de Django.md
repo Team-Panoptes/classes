@@ -1,4 +1,4 @@
-Pour tester votre installation de Django, vous pouvez utiliser la commande `django-admin`qui sert entre autres choses à [[Créer un nouveau projet Django]].
+Pour tester votre installation de Django, vous pouvez utiliser la commande `django-admin`qui sert entre autres choses à [[01 - Création du projet]].
 
 Si vous tapez
 ```shell

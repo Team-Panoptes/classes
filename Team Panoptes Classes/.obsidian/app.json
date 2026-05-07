@@ -1,6 +1,6 @@
 {
   "vimMode": true,
-  "attachmentFolderPath": "Attachments",
+  "attachmentFolderPath": "./Attachments",
   "pdfExportSettings": {
     "pageSize": "A4",
     "landscape": false,
@@ -8,5 +8,7 @@
     "downscalePercent": 100
   },
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }
