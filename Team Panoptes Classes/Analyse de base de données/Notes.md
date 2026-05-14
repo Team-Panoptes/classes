@@ -1,11 +1,3 @@
----
-toc: "true"
----
-## Introduction
-
-[[Qu'est-ce qu'une base de données]]
-
-
 
 1. Comprendre le besoin impératif d'effectuer une analyse préalable à la création d'une base de données réelle d'une application WEB
 2. Savoir extraire les informations nécessaires d'une situation réelle
