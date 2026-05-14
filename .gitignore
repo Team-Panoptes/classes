@@ -21,3 +21,7 @@ Icon?
 **/.obsidian/plugins/*/cache/
 **/.obsidian/plugins/*/.cache/
 **/.obsidian/plugins/*/node_modules/
+/Team Panoptes Classes/.obsidian/plugins/obsidian-style-settings
+/Team Panoptes Classes/.obsidian/themes
+/Team Panoptes Classes/.obsidian/appearance.json
+/Team Panoptes Classes/.obsidian/hotkeys.json
