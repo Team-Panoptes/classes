@@ -15,6 +15,7 @@ Icon?
 **/.obsidian/cache/
 **/.obsidian/workspace*
 **/.obsidian/updates.json
+**/.obsidian/app.json
 
 # Common plugin caches
 **/.obsidian/plugins/*/cache/
