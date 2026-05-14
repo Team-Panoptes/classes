@@ -88,12 +88,12 @@
   "exportWithBackground": true,
   "exportPaddingSVG": 10,
   "exportEmbedScene": false,
-  "keepInSync": false,
-  "autoexportSVG": false,
+  "keepInSync": true,
+  "autoexportSVG": true,
   "autoexportPNG": false,
   "autoExportLightAndDark": false,
   "autoexportExcalidraw": false,
-  "embedType": "excalidraw",
+  "embedType": "SVG",
   "embedMarkdownCommentLinks": true,
   "embedWikiLink": true,
   "syncExcalidraw": false,
@@ -1226,7 +1226,8 @@
             "hasTextLink": false,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1278,7 +1279,8 @@
             "hasTextLink": false,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1334,7 +1336,8 @@
             "hasTextLink": false,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1394,7 +1397,8 @@
             "hasTextLink": false,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1446,7 +1450,8 @@
             "hasTextLink": false,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           },
           {
             "type": "line",
@@ -1502,7 +1507,8 @@
             "hasTextLink": false,
             "locked": false,
             "startBinding": null,
-            "endBinding": null
+            "endBinding": null,
+            "polygon": false
           }
         ],
         "id": "wf8qO9N12pJj_jSVGGztY",
@@ -1841,7 +1847,8 @@
             "updated": 1776299434249,
             "link": null,
             "hasTextLink": false,
-            "locked": false
+            "locked": false,
+            "polygon": false
           },
           {
             "id": "LX6kTl9A8K36ld2MEV4tI",
