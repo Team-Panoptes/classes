@@ -11,7 +11,6 @@ Les fameux documents sont:
 - Dictionnaire de données
 - Modèle Conceptuel de Données ou MCD
 - Modèle Logique de Données ou MLD
-- Modèle Relationnel de Données ou MRD
 - Modèle Physique de Données ou MPD
 
 Notre but en tant qu'informaticien·ne  est de livré un modèle physique des données car c'est la représentation de ce qui sera implémenté dans la base de données. 

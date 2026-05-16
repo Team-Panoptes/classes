@@ -11,3 +11,8 @@ Django est une framework web en Python, permettant de créer rapidement des appl
 
 
 ---
+# Analyse 
+
+## [[Analyse de base de données - tables des matières|Analyse de base de données]]
+
+L'analyse de base de données est un ensemble de méthodes qui permet de construire une base de données en s'assurant son efficacité et sa robustesse. 

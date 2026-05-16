@@ -10,8 +10,3 @@ Dans ce cas demander à votre client les documents qu'il souhaite informatiser. 
 Dans les autres cas, il vous faudra imaginer les documents ou les écrans de l'application que vous êtes sur le point de designer.
 
 Ces documents vont être très utiles pour la première étapes: la création du [[Dictionnaire de données]]
-
-Afin d'illustrer les différentes étapes, nous allons utilisé un document "papier" qui nous servira de base à notre analyse.
-Ce document est une fiche d'inscription pour une école:
-
-![[formulaire école.png]]

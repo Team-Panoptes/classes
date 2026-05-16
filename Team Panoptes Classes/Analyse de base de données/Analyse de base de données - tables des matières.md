@@ -11,6 +11,8 @@ toc: "true"
 [[La méthode Merise]]
 [[Avant l'analyse]]
 [[Dictionnaire de données]]
+[[Dictionnaire de données - Exercices]]
+
 
 ## Sources
 
