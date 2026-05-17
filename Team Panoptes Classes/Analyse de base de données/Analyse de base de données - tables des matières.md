@@ -10,10 +10,19 @@ toc: "true"
 
 [[La méthode Merise]]
 [[Avant l'analyse]]
+
+### Dictionnaire des données
+
 [[Dictionnaire de données]]
-[[Dictionnaire de données - Exercices]]
+[[Dictionnaire de données - Exercices 1]]
+[[Dictionnaire de données - Exercices 2]]
+
+## Modèle conceptuel des données
+
 [[Modèle conceptuel des données]]
 [[Clé primaire]]
+[[Clé primaire  - Exercices]]
+[[Séparation des données en entités]]
 
 ## Sources
 

@@ -40,6 +40,7 @@ Une fois que vous avez terminé le dictionnaire de données, il est important de
 
 Par exemple, imaginons que notre client pour le club de basket, nous demande de demandé aussi l'âge de l'enfant dans le formulaire.
 
+![[âge dans le formulaire]]
 ![[âge dans le formulaire.svg]]
 %%[[âge dans le formulaire.md|🖋 Edit in Excalidraw]]%%
 
@@ -47,7 +48,7 @@ L'âge est une valeur qui peut se calculer  partir de la date de naissance et de
 
 De la même manière, si le formulaire demandait le nombre de club de basket fréquenté dans le passé et puis qu'il demandait de les listé les clubs par la suite.
 
-![[autres clubs.svg]]
+![[autres clubs]]
 %%[[autres clubs.md|🖋 Edit in Excalidraw]]%%
 
 Il est facile pour un programme informatique (un pour un humain d'ailleurs) de compter le nombre de clubs, donc c'est une valeur calculée aussi.
