@@ -1,6 +1,6 @@
 Il y a plusieurs étapes pour effectuer la séparation en entité. Il faut les suivre dans l'ordre pour être sûr de ne rien manquer.
 
-## 1. Les groupes répétitifs
+## Qu'est-ce qu'un groupes répétitifs
 Un groupe répétitifs est un groupe de données qui peux se répéter plusieurs fois dans un l'ensemble de nos données.
 
 Le cas d'école classique est la facture.
