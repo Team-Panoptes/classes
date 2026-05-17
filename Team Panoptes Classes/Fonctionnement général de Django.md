@@ -11,4 +11,4 @@ De plus, il existe aussi les [[URLs]], qui détermine quelle page du site corres
 
 Voici schématiquement comment les différents élements principaux d'une application Django interagissent.
 
-![[Fonctionnement général de Django 2026-04-16 02.27.07.excalidraw]]
+![[Fonctionnement général de Django 2026-04-16 02.27.07.excalidraw.svg]]
