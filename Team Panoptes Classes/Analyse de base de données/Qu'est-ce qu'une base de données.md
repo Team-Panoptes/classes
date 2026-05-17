@@ -27,8 +27,6 @@ Si vous prenez une le tableau de données suivantes:
 | Netika         | avenue Zenobe Gramme    | 27    | Wavre      | 1300         |
 | MOK            | Rue Antoine Danseart    | 196   | Bruxelles  | 1000         |
 
-Si on stocke ça dans un tel quel (dans un fichier XLSX par exemple), chaque entrées aura ~54 octets, ce qui veut dire que pour les 8 lignes ici présente cela ferait 432 octets.
-
 Si on reformate les données en plusieurs groupes:
 
 | ID Localité | Localité   | Code Postale |
@@ -98,26 +96,26 @@ config:
   theme: 'forest'
 ---
 erDiagram
-Establishment ||--|{ Locality : " " 
+Etablissement ||--|{ Localite : " " 
 
-Locality {
+Localite {
 	int id
-	string name
-	string zip_code
+	string nom
+	string code_postal
 }
 
-Establishment {
-	string name
-	string address
-	string house_number
-	int locality_id
+Etablissement {
+	string nom
+	string adresse
+	string numero
+	int localite_id
 }
 ```
 Nous verrons dans la suite du cours comment interprété ce diagramme, mais une chose qui est mise en évidence dans ce schéma: la relation entre *Establishment* et *Locality*
 ## Relations
 
 Les système de gestion de base de données les plus courant, sont des bases de données dîtes relationnelle.
-On les appelle comme cela car différentes entités de la bases de données sont en relation entre elles, comme le sont *Establishment* et *Locality*.
+On les appelle comme cela car différentes entités de la bases de données sont en relation entre elles, comme le sont *Etablissement* et *Localité*.
 
 Nous verrons tout au long de ce cours comment créer les tables et comment établir des relations qui font sens.
 

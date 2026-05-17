@@ -7,6 +7,7 @@ Comme le dictionnaire de données, le MCD doit rester compréhensible pour tous 
 Ce schéma est une interface pour discuter avec le client, qui pourra ainsi valider cette étape.
 
 Notre but ici va être de grouper nos données en entités. 
+
 Dans un premier temps on va considérer l'ensemble de nos données comme une entité. Ensuite nous allons trouvé la [[Clé primaire]] de cette entité.
-Une fois cette étape passée, nous pourrons [[Séparation des données en entités|séparer nos données en entités]]
+Une fois cette étape passée, nous pourrons [[Séparation des groupes répétitifs|séparer les groupes répétitifs]]
 

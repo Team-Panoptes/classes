@@ -3,26 +3,28 @@ toc: "true"
 ---
 ## Introduction
 
-[[Avant-propos]]
-[[Qu'est-ce qu'une base de données]]
+- [[Avant-propos]]
+- [[Qu'est-ce qu'une base de données]]
 
 ## La méthode Merise
 
-[[La méthode Merise]]
-[[Avant l'analyse]]
+- [[La méthode Merise]]
+- [[Avant l'analyse]]
 
 ### Dictionnaire des données
 
-[[Dictionnaire de données]]
-[[Dictionnaire de données - Exercices 1]]
-[[Dictionnaire de données - Exercices 2]]
+- [[Dictionnaire de données]]
+- [[Dictionnaire de données - Exercices 1]]
+- [[Dictionnaire de données - Exercices 2]]
 
 ## Modèle conceptuel des données
 
-[[Modèle conceptuel des données]]
-[[Clé primaire]]
-[[Clé primaire  - Exercices]]
-[[Séparation des données en entités]]
+- [[Modèle conceptuel des données]]
+- [[Clé primaire]]
+- [[Clé primaire  - Exercices]]
+- [[Séparation des groupes répétitifs]]
+- [[Séparation des groupes répétitifs - Exercices 1 & 2]]
+- [[Séparation des groupes répétitifs - Exercices 3]]
 
 ## Sources
 
