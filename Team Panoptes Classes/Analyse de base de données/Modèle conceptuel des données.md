@@ -5,3 +5,7 @@ Il permet de regrouper les différentes informations en entités et de montrer l
 Comme le dictionnaire de données, le MCD doit rester compréhensible pour tous en évitant les détails techniques.
 
 Ce schéma est une interface pour discuter avec le client, qui pourra ainsi valider cette étape.
+
+Notre but ici va être de grouper nos données en entités. 
+Dans un premier temps on va considérer l'ensemble de nos données comme une entité. Ensuite nous allons trouvé la [[Clé primaire]] de cette entité.
+
