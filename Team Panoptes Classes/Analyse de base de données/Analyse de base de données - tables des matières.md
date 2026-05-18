@@ -26,6 +26,10 @@ toc: "true"
 - [[Séparation des groupes répétitifs - Exercices 1 & 2]]
 - [[Séparation des groupes répétitifs - Exercices 3]]
 - [[Séparation des données non-liée directement à la clé primaire]]
+- [[Séparation des données non-liée directement à la clé primaire - Exercices]]
+- [[Les Cardinalités]]
+- [[Les Cardinalités - exercices]]
+- [[Analyse compléte]]
 
 ## Sources
 
