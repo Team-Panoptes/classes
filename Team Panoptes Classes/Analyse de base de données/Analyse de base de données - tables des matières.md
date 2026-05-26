@@ -19,7 +19,7 @@ toc: "true"
 
 ## Modèle conceptuel des données
 
-- [[Modèle conceptuel des données]]
+- [[Modèle Conceptuel des Données]]
 - [[Clé primaire]]
 - [[Clé primaire  - Exercices]]
 - [[Séparation des groupes répétitifs]]
@@ -35,7 +35,12 @@ toc: "true"
 - [[Modèle Logique des données]]
 - [[Clé Primaire - MLD|Clé Primaire]]
 - [[Clé étrangère]]
+- [[Table intermédiaire]]
 - [[Passage du MCD au MLD]]
+
+## Modèle relationnel des données
+- [[Modèle Relationnel des Données]]
+
 ## Sources
 
 - [Wikipedia: Merise (Informatique)](https://fr.wikipedia.org/wiki/Merise_(informatique))

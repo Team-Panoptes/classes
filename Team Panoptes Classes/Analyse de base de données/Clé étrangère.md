@@ -11,7 +11,7 @@ Prenons deux tables bien connues:
 ![[Analyse personne - MLD - 1.excalidraw.svg]]
 %%[[Analyse personne - MLD - 1.excalidraw|🖋 Edit in Excalidraw]]%%
 
-Dans le MLD, les relations se simplifie pour ne laisser que la ligne entre les deux tables.
+Dans le MLD, les relations se simplifie pour ne laisser que la ligne entre les deux tables. ^c0c90a
 
 ![[Analyse personne - MLD - 2.excalidraw.svg]]
 %%[[Analyse personne - MLD - 2.excalidraw.md|🖋 Edit in Excalidraw]]%%
@@ -66,6 +66,6 @@ Si on imagine les données dans nos tables
 | **~~5~~**   | ~~**Carter**~~ | ~~**Samanta**~~ | ~~**avenue du chevron**~~ | ~~**7**~~ | ~~**6**~~    |
 La dernière ligne ne pourrait pas exister car le champ `localite_xid` contient une donnée qui n'a pas d'équivalent dans le champ `localite_id` de la table `Personne`.
 
-Cette impossibilité d'existé est ce qu'on appelle une **contrainte d'intégrité**.
+Cette impossibilité d'exister est ce qu'on appelle une **contrainte d'intégrité** et elle est garantie par l'existence de la clé étrangère.
 
 [^1]: le `#` ne fait pas partie du nom de l'attribut c'est juste un moyen visuel de repérer les clés étrangères.
