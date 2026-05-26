@@ -31,6 +31,11 @@ toc: "true"
 - [[Les Cardinalités - exercices]]
 - [[Analyse compléte]]
 
+## Modéle logique des données
+- [[Modèle Logique des données]]
+- [[Clé Primaire - MLD|Clé Primaire]]
+- [[Clé étrangère]]
+- [[Passage du MCD au MLD]]
 ## Sources
 
 - [Wikipedia: Merise (Informatique)](https://fr.wikipedia.org/wiki/Merise_(informatique))
