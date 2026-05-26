@@ -41,6 +41,17 @@ toc: "true"
 ## Modèle relationnel des données
 - [[Modèle Relationnel des Données]]
 
+## Exercices de synthèse
+- [[Formulaire de douane]]
+- [[Base de données de prêt]]
+
+
+## Modèle physique des données
+
+- [[Modèle Physique des Données]]
+- [[Types de champs]]
+- [[Contraintes d'intégrité]]
+- [[Du MLD au MPD]]
 ## Sources
 
 - [Wikipedia: Merise (Informatique)](https://fr.wikipedia.org/wiki/Merise_(informatique))
