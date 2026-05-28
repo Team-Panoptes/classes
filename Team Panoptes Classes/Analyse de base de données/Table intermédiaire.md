@@ -8,7 +8,6 @@ Une table intermédiaire est une table qui va contenir les clés étrangères de
 
 Pour comprendre comment fonctionne une table intermédiaire, on va en créer une.
 
-
 Reprenons les entiées `Livre` et `Auteur` de notre Bibliothéque. On est bien en fasse d'une relation N à N [^1]
 
 ![[Table intermédiaire - 1.svg]]
@@ -43,6 +42,30 @@ Prenons le cas des emprunts de livres.
 
 ![[Table intermédiaire - 5.svg]]
 %%[[Table intermédiaire - 5.md|🖋 Edit in Excalidraw]]%%
+
+
+Une fois que la table intermédiaire est crée il faut se poser la question que l'une des données qui sont issue de la relation (ici : `date emprunt` et `date retour` ) doivent faire partie de la clé primaire.
+
+Pour déterminer ça, poser vous la question suivante:
+"Est-ce que dans le groupe de données, y'a-til une ou plusieurs données qui font partie de l'unicité de cette table?"
+Et aussi:
+
+"Est-ce que les clés primaire déjà là (c'est à dire les clés étrangères) sont suffisante pour garantir l'intégrité des données? "
+
+Ici la clé primaire étrangère et composé d'une clé étrangère qui pointe sur `livre` et d'une clé étrangère qui pointe sur `personne`. 
+Ce qui veut dire que en l'état une personne ne peut louer qu'une seul fois un livre (puisque la table ne pourra accueillir qu'une occurrence de `livre` par `personne`). Il faut donc ajouter l'un des champs.
+
+Celui qui fait le plus de sens c'est le champs `date emprunt`, car le champ `date tour` peut être null.
+
+![[Table intermédiaire - 6.svg]]
+%%[[Table intermédiaire - 6.md|🖋 Edit in Excalidraw]]%%
+
+Il y a évidemment des cas où la ou les données restées dans la table ne seront pas utilisé dans la clé primaire et donc la clé primaire sera uniquement composé des clés étrangères.
+
+![[Table intermédiaire - 7.svg]]
+%%[[Table intermédiaire - 7.md|🖋 Edit in Excalidraw]]%%
+
+Dans ce cas-ci, comme on pourrait avoir la même `donnée` pour deux `type de moyen de communication` par exemple vous avez le même numéro pour votre "numéro de travail et pour votre "numéro personnel" l'unicité ne doit concernée que les deux clés étrangères.
 
 ## Table intermédiaire vue de l'intérieur
 

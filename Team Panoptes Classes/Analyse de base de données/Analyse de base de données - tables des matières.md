@@ -51,7 +51,7 @@ toc: "true"
 - [[Modèle Physique des Données]]
 - [[Types de champs]]
 - [[Contraintes d'intégrité]]
-- [[Du MLD au MPD]]
+- [[Du MLD au MDP avec Mermaid]]
 ## Sources
 
 - [Wikipedia: Merise (Informatique)](https://fr.wikipedia.org/wiki/Merise_(informatique))

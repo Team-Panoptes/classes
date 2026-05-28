@@ -8,4 +8,5 @@ Après un schéma est physique des données peut être facilement traduit d'un s
 
 En générale, c'est au devellopeur·euse qui va implémenter la base de données, qu'incombe le travail d'écrire le MPD
 
+
 [^1]: Maria DB, SQL Server, Oracle, MySQL, PostgreSQL ...
