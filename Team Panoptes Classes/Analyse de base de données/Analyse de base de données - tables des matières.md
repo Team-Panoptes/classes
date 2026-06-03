@@ -3,7 +3,7 @@ toc: "true"
 ---
 ## Introduction
 
-- [[Avant-propos]]
+- [[Analyse de base de données - avant-propos|Avant-propos]]
 - [[Qu'est-ce qu'une base de données]]
 
 ## La méthode Merise
