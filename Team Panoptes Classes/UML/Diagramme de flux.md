@@ -33,13 +33,6 @@ flowchart LR
     A@{ shape: lean-r, label: "→ name" }
     
 ```
-On peut aussi être plus descriptif
-
-```mermaid
-flowchart LR
-    A@{ shape: lean-r, label: "Récupération du nom de la personne" }
-    
-```
 
 
 > [!Attention] Erreur récurante
@@ -138,4 +131,64 @@ AskNumber --> GetNumber@{ shape: lean-r, label: "→ number" }
 GetNumber-->TestNumber{{number < 1 or number > 10}}
 TestNumber -- oui -->  AskNumber
 TestNumber -- non -->  END((end))
+
+
+## Programme complet
+
+Avec ces quelques instructions on peut déjà décrire beaucoup de programme.
+
+Par exemple, voici un programme qui vérifie votre mot de passe
+
+```mermaid
+flowchart TB
+
+S((Start)) --> SetTentative[Tentative = 0]
+SetTentative --> SetPassword[Password = None]
+SetPassword --> TestPassword{{user_password != PASSWORD and Tentative < 3}}
+TestPassword -- oui --> AskPassword@{ shape: curv-trap, label: "Mot de Passe: " }
+AskPassword --> GetPassword[/→ user_password/]
+GetPassword --> TestPassword
+TestPassword -- non --> TestPassword2{{user_password == PASSWORD}} --> A@{ shape: curv-trap, label: "Le mot de passe correct" } --> E((End))
+TestPassword2 -- non --> B@{ shape: curv-trap, label: "Mot de passe est incorrect" } --> E
 ```
+
+## Moins technique plus fonctionnel
+
+Comme en témoigne ce dessin de [xkcd](https://xkcd.com), on peut faire des diagramme de flux pour plein de choses (comme expliquer comment fonctionne un diagramme de flux). 
+
+![[xkcd_flow_charts.png]]
+
+C'est par exemple quelque chose de fort utiliser pour expliquer les scénarios de conversation dans les entreprises de démarchage téléphonique.
+
+Voici le programme de saisie de password expliqué à l'aide d'un flowchart, mais d'un point de vs fonctionnel.
+
+```mermaid
+flowchart TB
+
+S((Start)) --> SetTentative[Initialisation des tentatives à 0]
+SetTentative --> AskPassword@{ shape: curv-trap, label: "Demande du mot de passe" }
+AskPassword --> GetPassword[/Saisie du mot de passe/]
+GetPassword --> TestPassword{{Le mot de passe n'est pas bon et le nombre de tentative est inférieur à 3}}
+TestPassword -- oui --> AskPassword
+TestPassword -- non --> TestPassword2{{Le mot de passe est bon}} --> A@{ shape: curv-trap, label: "Le mot de passe est bon" } --> E((End))
+TestPassword2 -- non --> B@{ shape: curv-trap, label: "Le mot de passe est incorrect" } --> E
+```
+
+## Commentaires
+
+Bien évidemment parfois le diagramme de flux ne suffira pas de lui même et il vous faudra ajouter des commentaires. (Tout comme dans un code classique). C'est évidemment autorisé (voir encouragé).
+
+```mermaid
+flowchart TB
+
+S((Start)) --> SetTentative[Initialisation des tentatives à 0]
+S ~~~ Comment@{ shape: braces, label: "Le mot de passe est récupéré sur un server, surlequel il est stocké sous un format encrypté"} ~~~ SetTentative
+SetTentative --> AskPassword@{ shape: curv-trap, label: "Demande du mot de passe" }
+AskPassword --> GetPassword[/Saisie du mot de passe/]
+GetPassword --> TestPassword{{Le mot de passe n'est pas bon et le nombre de tentative est inférieur à 3}}
+TestPassword -- oui --> AskPassword
+TestPassword -- non --> TestPassword2{{Le mot de passe est bon}} --> A@{ shape: curv-trap, label: "Le mot de passe est bon" } --> E((End))
+TestPassword2 -- non --> B@{ shape: curv-trap, label: "Le mot de passe est incorrect" } --> E
+```
+
+*Noté que les accolades sont du à Mermaid, elles ne sont pas obligatoires.*
