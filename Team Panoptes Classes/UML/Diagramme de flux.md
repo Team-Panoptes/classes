@@ -142,10 +142,10 @@ Par exemple, voici un programme qui vérifie votre mot de passe
 ```mermaid
 flowchart TB
 
-S((Start)) --> SetTentative[Tentative = 0]
+S((Start)) --> SetTentative[tentatives = 0]
 SetTentative --> SetPassword[Password = None]
 SetPassword --> TestPassword{{user_password != PASSWORD and Tentative < 3}}
-TestPassword -- oui --> AskPassword@{ shape: curv-trap, label: "Mot de Passe: " }
+TestPassword -- oui --> AddTentatitve[tentatives += 1] --> AskPassword@{ shape: curv-trap, label: "Mot de Passe: " }
 AskPassword --> GetPassword[/→ user_password/]
 GetPassword --> TestPassword
 TestPassword -- non --> TestPassword2{{user_password == PASSWORD}} --> A@{ shape: curv-trap, label: "Le mot de passe correct" } --> E((End))
@@ -169,7 +169,7 @@ S((Start)) --> SetTentative[Initialisation des tentatives à 0]
 SetTentative --> AskPassword@{ shape: curv-trap, label: "Demande du mot de passe" }
 AskPassword --> GetPassword[/Saisie du mot de passe/]
 GetPassword --> TestPassword{{Le mot de passe n'est pas bon et le nombre de tentative est inférieur à 3}}
-TestPassword -- oui --> AskPassword
+TestPassword -- oui --> AddTentative[Incrémentation du nombre de tentatives]--> AskPassword
 TestPassword -- non --> TestPassword2{{Le mot de passe est bon}} --> A@{ shape: curv-trap, label: "Le mot de passe est bon" } --> E((End))
 TestPassword2 -- non --> B@{ shape: curv-trap, label: "Le mot de passe est incorrect" } --> E
 ```
@@ -182,13 +182,49 @@ Bien évidemment parfois le diagramme de flux ne suffira pas de lui même et il 
 flowchart TB
 
 S((Start)) --> SetTentative[Initialisation des tentatives à 0]
-S ~~~ Comment@{ shape: braces, label: "Le mot de passe est récupéré sur un server, surlequel il est stocké sous un format encrypté"} ~~~ SetTentative
+S ~~~ Comment@{ shape: comment, label: "Le mot de passe est récupéré sur un server, surlequel il est stocké sous un format encrypté"} ~~~ SetTentative
 SetTentative --> AskPassword@{ shape: curv-trap, label: "Demande du mot de passe" }
 AskPassword --> GetPassword[/Saisie du mot de passe/]
 GetPassword --> TestPassword{{Le mot de passe n'est pas bon et le nombre de tentative est inférieur à 3}}
-TestPassword -- oui --> AskPassword
+TestPassword -- oui --> AddTentative[Incrémentation du nombre de tentatives] --> AskPassword
 TestPassword -- non --> TestPassword2{{Le mot de passe est bon}} --> A@{ shape: curv-trap, label: "Le mot de passe est bon" } --> E((End))
 TestPassword2 -- non --> B@{ shape: curv-trap, label: "Le mot de passe est incorrect" } --> E
 ```
 
-*Noté que les accolades sont du à Mermaid, elles ne sont pas obligatoires.*
+*Noté que les commentaire ne sont pas régit par une convention particulière. 
+Les accolades sont dût à Mermaid, elles ne sont pas du tout obligatoires.*
+
+
+## La boucle arithmétique en diagramme de flux
+
+En tant que développeur·euse, la boucle arithmétique ou boucle *for* est un outils qu'on utilise assez régulièrement.
+
+Le diagramme de flux est n'a pas de représentation native pour ce mécanisme, mais on peut s'en tirer relativement facilement.
+
+Prenons le code suivant en exemple:
+
+```python 
+number = int(input("Nombre: "))
+
+factorial = 0
+for n in range(1, number+1):
+	factorial += n
+	
+print(f"Factoriel: {factorial}")
+```
+
+On peut l'écrire sous forme de diagramme comme suit:
+```mermaid
+flowchart TB
+
+S((Start)) --> ANum@{ label: "Number: ", shape: curv-trap}
+ANum --> GNum[/→ number/] 
+GNum --> SFac[factorial = 0]
+SFac --> For@{shape: f-circ, label: "test" }
+UFac[factorial += n] --> For
+For -- for n = 1 → number --> UFac
+UFac --> PFac@{ label: "'Factoriel: ' + factorial", shape: curv-trap} --> E((End))
+
+
+```
+
