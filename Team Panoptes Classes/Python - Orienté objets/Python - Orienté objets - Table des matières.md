@@ -4,3 +4,5 @@
 - [[Ecrire une classe]]
 - [[Exercice - Classe]]
 - [[Héritage]]
+- [[Exercices - Héritages]]
+- [[Accessibilité]]
