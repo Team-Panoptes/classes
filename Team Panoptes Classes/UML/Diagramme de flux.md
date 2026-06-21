@@ -26,7 +26,7 @@ flowchart LR
 ## Instruction d'entrée
 
 Ce parallélogramme représente une instruction d'entrée. C'est censé représenté un clavier (nous verrons bientôt que le rectangle était déjà pris).
-Si on veut exprimer que l'entrée est stockée dans une variable, celle-ci sera  exprimée à l'aide d'une flêche suivit du nom de la variable.
+Si on veut exprimer que l'entrée est stockée dans une variable, celle-ci sera  exprimée à l'aide d'une flèche suivit du nom de la variable.
 
 ```mermaid
 flowchart LR

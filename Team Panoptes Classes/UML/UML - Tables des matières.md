@@ -5,11 +5,11 @@
 ## Diagrammes
 
 - [[Diagramme de flux]]
+- [[Exercices - Diagramme de flux]]
 - [[Diagramme de classes]]
 - [[Diagramme de cas d'utilisation]]
-- [[Diagramme états-transitions]]
+%%- [[Diagramme états-transitions]]%%
 - [[Diagrammes de séquence]]
-
-- [[Diagramme d'activté]]
+%%- [[Diagramme d'activié]]%%
 
 

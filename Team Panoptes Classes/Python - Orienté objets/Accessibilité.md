@@ -137,7 +137,7 @@ car.__fill_tank(30)
 > Un attribut privé, n'est accessible que dans la classe elle-même. Ce qui veut dire que les enfants de la classe n'y ont pas accès non-plus.
 
 
-En C#, comme pour `public`, afin de rendre une variable privée on va le précisé avec le mot clé `private`
+En C#, comme pour `public`, afin de rendre un attribut ou une méthode privée on va le précisé avec le mot clé `private`
 
 ```csharp
 class Car: Vehicle {
@@ -162,4 +162,59 @@ class Car: Vehicle {
 }
 ```
 
-Et comme pour Python, les attributs et les méthodes qui sont privées ne sont plus accessible depuis ailleurs que la classe elle-même.
+Et comme pour Python, les attributs et les méthodes qui sont privées ne sont plus accessibles depuis ailleurs que la classe elle-même.
+
+## Protected
+
+Définir un attribut ou une méthode comme protégé, fait en sorte que l'accès est limité à la classe elle-même, mais aussi à ses enfants.
+
+A l'inverse des données privées qui elles ne sont pas accessible d'ailleurs que depuis la classe, celle-ci sont accessible aussi pour les enfants, c'est idéale pour les variables qui n'ont pas vocation à être exposée par l'extérieure de la classe, mais qui doivent affecté ou être affectée par les enfants de la classe.
+
+
+> [!info] Pas de `protected` en Python
+> Il n'y a pas moyen d'avoir d'attribut protected en Python.
+> Pour signifier qu'un attribut ou une méthode  devrait être `protected`, on les nomme en commençant avec un underscore.
+> 
+> La variable reste publique , mais on indique par cette démarche au programmeur qu'il ne devrait pas utiliser cette variable.
+
+Comme ici où `_fill_tank` et `fuel` sont publiques mais désignés comme protégés:
+
+```python
+	class Car(Vehicle):
+	 	def __init__(self):
+			super().__init__(100)
+			self._fuel = 100
+			self.__consumption = 0.05
+	
+		def ride(self, duration):
+			super().ride(duration)
+			fuel_consumed = self.__consumption * duration * self.speed
+			self.fuel -= fuel_consumed
+	  
+		def _fill_tank(self, fuel_volume):
+			self.fuel += fuel_volume
+```
+
+En C#,  c'est le mot clé `protected` qui va rendre un attribut ou un méthode protégé.
+
+```csharp
+class Car: Vehicle {
+	
+	protected float fuel = 100.0f
+	public private consumption = 0.05f
+
+	public Car(): base(100){
+		fuel = 100
+		consumption = 0.05
+	}
+
+	public void Ride(duration){
+		base(duration)
+		float fuelConsumed = consumption duration speed
+		fuel -= fuelConsumed
+	}
+  
+	protected FillTank(fuel_volume){
+		fuel += fuel_volume
+	}
+}
