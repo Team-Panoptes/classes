@@ -6,9 +6,9 @@ class Vehicle:
 		self.speed = speed
 		self.distance = 0
 
-def ride(self, duration):
-	travel = duration * self.speed
-	self.distance += travel
+	def ride(self, duration):
+		travel = duration * self.speed
+		self.distance += travel
 ```
 
 ## 1. Classe Train

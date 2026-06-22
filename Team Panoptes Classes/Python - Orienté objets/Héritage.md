@@ -89,6 +89,9 @@ class Bike(Vehicle):
 	def __init__(self)
 	super().__init__(15)
 ```
+
+^5932fc
+
 ### Décomposition
 
 La première chose que l'on constate c'est apparition de parenthèses dans la  déclaration de la classe et entre ces parenthèses, la classe "parent".
@@ -196,6 +199,8 @@ class Car(Vehicle):
 	def fill_tank(self, fuel_volume):
 		self.fuel += fuel_volume
 ```
+
+^e73fae
 
 Maintenant que vous avez appris ce qu'est l'héritage, voici quelques [[Exercices - Héritages|exercices]] pour vous entraînez.
 

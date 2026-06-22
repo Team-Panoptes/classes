@@ -24,6 +24,8 @@ Vous remarquerez qu'elle est divisé en 3 rectangles un avec le nom et deux enco
 
 Les attributs d'une classe sont écrit dans le rectangle du haut.
 
+Pour chaque attribut, on va écrire "`:`" suivit du type attendu.
+
 ```mermaid
 classDiagram
 
@@ -35,7 +37,29 @@ gender: string
 
 ### Méthodes
 
-L
+Les méthodes d'une classe sont décrites dans le rectangle du bas. 
+
+Pour les arguments, on les mettra entre parenthèses, avec le type attendu (comme pour les attributs) 
+
+Pour le retour, on le mettra en fin de déclaration de la même façon que pour les types d'attributs. 
+
+Si il n'y a pas de retour, le type attendu sera `void`[^1]
+
+
+> [!NOTE] Constructeur
+> Le constructeur n'a pas de retour et on ne va pas le spécifier non-plus car c'est tacite (et que ça permet de le repérer plus facilement).
+
+```mermaid
+classDiagram
+
+class Animal{
+age : int
+gender : string
+Animal(ageMax: int)
+IsMamal() bool
+Aging(age: int) void
+}
+```
 
 ### Accessibilité
 
@@ -55,7 +79,35 @@ Dans le diagramme de classe, on précédera chaque élément d'un symbole pour �
 classDiagram
 
 class Animal{
-+age: int
-+gender: string
+#age : int
+#gender : string
+-ageMax: int
++Animal(ageMax: int)
++IsMamal() bool
++Aging(age: int) void
 }
 ```
+
+
+Fort de cette connaissance, faite la représentation de la classe suivante:
+
+
+> [!NOTE] Typage en Python
+> En python, le typage est dynamique. Mais il existe un moyen donner une indication sur le typage attendu aux développeur·euse·s qui utilisent vos classes ou vos fonctions.
+> 
+> Pour les arguments, vous écrivez "`:`" suivit du type attendu (comme pour le diagramme de classe). 
+> 
+> Pour le retour, on va écrire "`->`" suivit du type attendu. Cette annotation viendra se placer entre la parenthèse fermante et les "`:`"
+```python
+class Vehicle:
+
+	def __init__(self, speed: float):
+		self._speed = speed
+		self._distance = 0
+	
+	def ride(self, duration: float)-> None:
+		travel = duration * self.speed
+		self.distance += travel
+```
+
+[^1]: "vide" en anglais.
