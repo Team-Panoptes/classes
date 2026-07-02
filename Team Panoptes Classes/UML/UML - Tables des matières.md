@@ -1,6 +1,6 @@
 ## Introduction
 - [[UML - avant-propos|Avant-Propos]]
-- [[Qu'est que l'UML? À quoi et à qui ça sert?]]
+- [[L'UML, définition et utilités]]
 
 ## Diagrammes
 
