@@ -41,18 +41,18 @@ Prompt ~~~ Comment@{ shape: comment, label: "random_number renvoie un nombre al�
 Prompt --> InitValue["value = random_number(1, 10)"]
 InitValue --> InitAnswer["answer = 'o'"]
 InitAnswer --> While{{"answer == 'o' and value <= 21"}} 
-While -- vrai --> Print[\"'Value: ' + value"\]
-Print --> AskAnswer@{"Voulez-vous continuer (o/n): "}
-AskAnswer --> NotGood{{"answer not in ('o', 'n')"}}
+While -- vrai --> Print@{ shape: curv-trap, label: "'Value: ' + value"}
+Print --> AskAnswer@{ shape: curv-trap, label: "Voulez-vous continuer (o/n): "}
+AskAnswer --> GetAnswer[/"→ answer "/] --> NotGood{{"answer not in ('o', 'n')"}}
 NotGood -- vrai --> AskAnswer
 NotGood -- faux --> Continue{{answer == 'o'}}
 Continue -- Vrai --> AddValue["value += random_number(1, 10)"]
 AddValue --> While
 Continue -- faux --> While
-While -- faux --> Print2[\"'Value: ' + value"\]
-Print2 --> CheckValue{{"alue >= 19 and value <= 21"}}
-CheckValue -- vrai --> Win[\"Gagné!"\] --> E((end))
-CheckValue -- faux --> Win[\"Perdu..."\] --> E((end))
+While -- faux --> Print2@{ shape: curv-trap, label: "'Value: ' + value"}
+Print2 --> CheckValue{{"value >= 19 and value <= 21"}}
+CheckValue -- vrai --> Win@{ shape: curv-trap, label: "Gagné!"} --> E((end))
+CheckValue -- faux --> Lose@{ shape: curv-trap, label: "Perdu..."} --> E((end))
 ```
 
 ## 3. Ecrivez le diagramme de flux correspondant à l'énoncé suivant:

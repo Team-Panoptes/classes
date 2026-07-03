@@ -122,15 +122,18 @@ TestNumber -- non -->  END((end))
 
 
 > [!NOTE] Décision plus lisible
-> Les décisions peuvent être représentée par des hexagone allongé si cela rend le diagramme plus lisible
-> 
-> ```mermaid
+> Les décisions peuvent être représentée par des hexagone allongé si cela rend le diagramme plus lisible.
+
+
+```mermaid
 flowchart TB
 START((start))-->AskNumber@{ shape: curv-trap, label: "Donne un chiffre entre 1 et 10: " }
 AskNumber --> GetNumber@{ shape: lean-r, label: "→ number" }
 GetNumber-->TestNumber{{number < 1 or number > 10}}
 TestNumber -- oui -->  AskNumber
 TestNumber -- non -->  END((end))
+```
+
 
 
 ## Programme complet
@@ -148,7 +151,7 @@ SetPassword --> TestPassword{{user_password != PASSWORD and Tentative < 3}}
 TestPassword -- oui --> AddTentatitve[tentatives += 1] --> AskPassword@{ shape: curv-trap, label: "Mot de Passe: " }
 AskPassword --> GetPassword[/→ user_password/]
 GetPassword --> TestPassword
-TestPassword -- non --> TestPassword2{{user_password == PASSWORD}} --> A@{ shape: curv-trap, label: "Le mot de passe correct" } --> E((End))
+TestPassword -- non --> TestPassword2{{user_password == PASSWORD}} -- oui --> A@{ shape: curv-trap, label: "Le mot de passe correct" } --> E((End))
 TestPassword2 -- non --> B@{ shape: curv-trap, label: "Mot de passe est incorrect" } --> E
 ```
 
@@ -170,7 +173,7 @@ SetTentative --> AskPassword@{ shape: curv-trap, label: "Demande du mot de passe
 AskPassword --> GetPassword[/Saisie du mot de passe/]
 GetPassword --> TestPassword{{Le mot de passe n'est pas bon et le nombre de tentative est inférieur à 3}}
 TestPassword -- oui --> AddTentative[Incrémentation du nombre de tentatives]--> AskPassword
-TestPassword -- non --> TestPassword2{{Le mot de passe est bon}} --> A@{ shape: curv-trap, label: "Le mot de passe est bon" } --> E((End))
+TestPassword -- non --> TestPassword2{{Le mot de passe est bon}} -- oui --> A@{ shape: curv-trap, label: "Le mot de passe est bon" } --> E((End))
 TestPassword2 -- non --> B@{ shape: curv-trap, label: "Le mot de passe est incorrect" } --> E
 ```
 
@@ -187,7 +190,7 @@ SetTentative --> AskPassword@{ shape: curv-trap, label: "Demande du mot de passe
 AskPassword --> GetPassword[/Saisie du mot de passe/]
 GetPassword --> TestPassword{{Le mot de passe n'est pas bon et le nombre de tentative est inférieur à 3}}
 TestPassword -- oui --> AddTentative[Incrémentation du nombre de tentatives] --> AskPassword
-TestPassword -- non --> TestPassword2{{Le mot de passe est bon}} --> A@{ shape: curv-trap, label: "Le mot de passe est bon" } --> E((End))
+TestPassword -- non --> TestPassword2{{Le mot de passe est bon}} -- oui --> A@{ shape: curv-trap, label: "Le mot de passe est bon" } --> E((End))
 TestPassword2 -- non --> B@{ shape: curv-trap, label: "Le mot de passe est incorrect" } --> E
 ```
 
@@ -221,7 +224,7 @@ S((Start)) --> ANum@{ label: "Number: ", shape: curv-trap}
 ANum --> GNum[/→ number/] 
 GNum --> SFac[factorial = 0]
 SFac --> For@{shape: f-circ, label: "test" }
-UFac[factorial += n] --> For
+UFac[factorial *= n] --> For
 For -- for n = 1 → number --> UFac
 UFac --> PFac@{ label: "'Factoriel: ' + factorial", shape: curv-trap} --> E((End))
 

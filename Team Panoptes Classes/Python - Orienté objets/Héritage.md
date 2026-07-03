@@ -67,15 +67,15 @@ class Vehicle:
 		self.speed = speed
 		self.distance = 0
 
-def ride(self, duration):
-	travel = duration * self.speed
-	self.distance += travel
+	def ride(self, duration):
+		travel = duration * self.speed
+		self.distance += travel
 ```
 
 Techniquement, si je veux instancier l'équivalent d'un vélo, je peux écrire ceci
 
 ```python
-bike = Bike(15)
+bike = Vehicle(15)
 ```
 Seulement ce n'est pas pratique, parce que ça demande au programmeur de connaitre la vitesse à passer pour chaque paramètre. Initialement il n'avait pas à le faire. 
 
@@ -87,7 +87,7 @@ Donc on va recréer notre classe `Bike` en utilisant l'héritage.
 class Bike(Vehicle):
 
 	def __init__(self)
-	super().__init__(15)
+		super().__init__(15)
 ```
 
 ^5932fc
