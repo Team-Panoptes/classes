@@ -82,3 +82,37 @@ Student -- Teacher
 ```
 
 ## Cardinalité
+
+Les cardinalités indique le nombre concerné par liens en questions. 
+La cardinalité est indiquée avec un minimun et un maximun. 
+Pour les valeurs minimun on peut avoir 0, 1 ou N. N représentant plusieurs (allant de 2 à l'infini).
+Pour les valeurs maxium on peut avec 1 ou N.
+
+
+> [!NOTE] N, il n'y a rien de plus précis?
+> Normalement à partir de 2, on notera N, mais rappelez-vous qu'il faut être avant tout pragmatique. Si on est sur d'avoir toujours 3 maximun, on peut notez 3, mais c'est assez rare et non-conventionnel.
+
+Le maximum et le minimum sont sont indiqué séparé par deux points comme ceci "`..`".
+Donc pour exprimer qu'une entité peut posséder de 1 à plusieurs éléments, on écrira "`1..N`"
+
+Enfin, en UML, la cardinalité se trouve du coté qui est concerné par la possession. 
+
+Par exemple, si on veut exprimer la relation entre un arbre et ses fruit, l'arbre pouvant posséder plusieurs fruit.  La relation sera de `0..N` (car un arbre peut ne pas avoir de fruit) et on notera la relation au niveau du fruit .
+
+```mermaid
+classDiagram
+    Tree --o "0..N" Fruit
+```
+Et la relation entre le fruit et sont arbre sera de `1..1` et sera indiquée au niveau de l'arbre.
+
+```mermaid
+classDiagram
+class Tree {
+	- fruits: Fruit[]
+}
+
+class Fruit {
+- tree: Tree
+}
+    Tree "1..1" o-- "0..N" Fruit
+```
