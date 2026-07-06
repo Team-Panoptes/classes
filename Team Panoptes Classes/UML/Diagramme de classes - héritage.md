@@ -41,7 +41,7 @@ class Animal{
 
 class Duck {
 +Duck(ageMax: int)
-+IsMamal() bool
++Aging(age: int) void
 }
 
 Duck --|> Animal

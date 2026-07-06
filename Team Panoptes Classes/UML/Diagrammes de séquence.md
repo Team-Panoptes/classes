@@ -248,3 +248,54 @@ end
 ```
 
 Le gardien de la `loop` représente la condition de boucle, si il est absent, cela représente une boucle infinie.
+
+## Hors du code
+
+Il est clairement possible d'imaginer un diagramme de séquence pour représenter autre chose d'un programme informatique
+
+On peut, par exemple imaginer des interaction entre personne.
+
+Voici le diagramme de séquence symbolisant une partie d'Echecs. 
+
+```mermaid
+---
+config:
+  mirrorActors: false
+---
+sequenceDiagram
+
+actor p1 as player 1
+actor p2 as player 2
+participant clock
+participant chessboard
+
+p1->>+clock: active
+loop player 1 not checkmate and player 2 not checkmate and player 1 on clock and player 2 on clock
+	p1->>+p1: think
+		p1-->>-p1: 
+	opt player 1 on clock
+		p1 ->> +chessboard: play
+		chessboard-->>-p1: 
+		opt not player 2 checkmate
+			p1 ->> clock: press
+		end
+	p2->>+p2: think
+		p2-->>-p2: 
+		opt player 1 on clock
+			p2 ->> +chessboard: play
+			chessboard-->>-p2: 
+			opt not player 1 checkmate
+				p2 ->> clock: press
+			end
+		end
+	end
+end
+
+alt player 1 wins
+p2 ->>+ p1: congratulate
+p1 -->>- p2: says thanks
+else
+p1 ->>+ p2: congratulate
+p2 -->>- p1: says thanks
+end
+```
