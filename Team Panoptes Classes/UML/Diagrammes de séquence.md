@@ -142,3 +142,160 @@ Dans le diagramme précédent, on constate qu'il y a une "entité" particulière
 
 Il arrive souvent qu'un acteur (un utilisateur) soit le déclencheur de la séquence que l'on veut représenter.
 
+## Alt-ernative
+
+Pour représenter une décision, le diagramme de séquence offre l'alternative et l'option.
+L'alternative représente le faite d'avoir plusieurs options. L'alternative est représenté par un bloc `alt`
+
+```mermaid
+---
+config:
+  mirrorActors: false
+---
+sequenceDiagram
+
+actor player
+participant view as view: GNInterface
+participant controller as controller: GuessTheNumber
+
+player->>+view: EnterPropostion()
+view->>+player: Input()
+player-->>-view: proposition
+view->>+controller: checkAnswer(userProposition)
+alt answer is lower
+controller-->>view: Answer.lower
+else answer is greater
+controller-->>view: Answer.greater
+else
+controller-->>view: Answer.exact
+deactivate controller
+end
+view->>view: print(answer)
+view-->>-player: 
+```
+
+Le text entre crochet (comme `[answer is lower]`) est nommé gardien, car il représente la condition pour rentrer dans l'option désignée par la sous-partie.
+
+Par exemple, ici on explique que si la réponse est plus petite on renvoie `Answer.lower`, sinon si la réponse est plus grande on renvoie `Anwser.greater` et sinon on renvoie `Answer.exact`.
+L'absence de gardien marque le faite que c'est l'option par défaut (si toutes les autres ne sont pas possible). Evidemment, il peut ne pas y avoir d'option par défaut.
+
+## Opt-ion
+
+Dans le même ordre d'idée que l'alternative, il y a l'option. Ce cadrant représente une seul option qui peut être réalisée ou non, comme un `alt` à un seul cadrant.
+
+
+```mermaid
+---
+config:
+  mirrorActors: false
+---
+sequenceDiagram
+
+Participant controler as controler: Controler
+participant messageBox as messageBox: MessageBox
+participant logger as logger:Logger
+participant user as user: User
+
+controler->>+messageBox: display()
+
+messageBox->>+user: get_name()
+user-->>-messageBox: name
+opt debug activate
+messageBox->>+logger : GetLogs()
+logger-->>-messageBox: logs
+end
+messageBox->>messageBox : Hide(false)
+messageBox-->>-controler : 
+```
+
+## Loop
+
+Il est aussi possible de représenter une boucle (peut importe laquelle).
+
+Pour ça nous avons le cadrant `loop`.
+
+```mermaid
+---
+config:
+  mirrorActors: false
+---
+sequenceDiagram
+
+actor player
+participant view as view: GNInterface
+participant controller as controller: GuessTheNumber
+player->>+view: Start()
+view->>+controller: StartGame()
+controller->>controller: ChooseRandomAnswer()
+controller-->>-view: 
+view-->>-player: 
+loop while anwser != Answer.exact
+	player->>+view: EnterPropostion()
+	view->>+player: Input()
+	player-->>-view: proposition
+	view->>+controller: checkAnswer(userProposition)
+	alt answer is lower
+	controller-->>view: Answer.lower
+	else answer is greater
+	controller-->>view: Answer.greater
+	else
+	controller-->>view: Answer.exact
+	deactivate controller
+	end
+	view->>view: print(answer)
+	view-->>-player: 
+end
+```
+
+Le gardien de la `loop` représente la condition de boucle, si il est absent, cela représente une boucle infinie.
+
+## Hors du code
+
+Il est clairement possible d'imaginer un diagramme de séquence pour représenter autre chose d'un programme informatique
+
+On peut, par exemple imaginer des interaction entre personne.
+
+Voici le diagramme de séquence symbolisant une partie d'Echecs. 
+
+```mermaid
+---
+config:
+  mirrorActors: false
+---
+sequenceDiagram
+
+actor p1 as player 1
+actor p2 as player 2
+participant clock
+participant chessboard
+
+p1->>+clock: active
+loop player 1 not checkmate and player 2 not checkmate and player 1 on clock and player 2 on clock
+	p1->>+p1: think
+		p1-->>-p1: 
+	opt player 1 on clock
+		p1 ->> +chessboard: play
+		chessboard-->>-p1: 
+		opt not player 2 checkmate
+			p1 ->> clock: press
+		end
+	p2->>+p2: think
+		p2-->>-p2: 
+		opt player 1 on clock
+			p2 ->> +chessboard: play
+			chessboard-->>-p2: 
+			opt not player 1 checkmate
+				p2 ->> clock: press
+			end
+		end
+	end
+end
+
+alt player 1 wins
+p2 ->>+ p1: congratulate
+p1 -->>- p2: says thanks
+else
+p1 ->>+ p2: congratulate
+p2 -->>- p1: says thanks
+end
+```
