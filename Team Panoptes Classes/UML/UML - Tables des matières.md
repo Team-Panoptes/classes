@@ -14,9 +14,11 @@
 	%% - [[Analyse|Analyse]]%%
 	%%- [[Classe abstraite|Classe abstraite]]%%
 	%%- [[Polymorphisme]]%%
-- [[Diagramme de cas d'utilisation]]
-%%- [[Diagramme états-transitions]]%%
 - [[Diagrammes de séquence]]
-%%- [[Diagramme d'activié]]%%
+- [[Exercices - Diagrammes de séquence]]
+- [[Exercices - UML]]
+%%- [[Diagramme de cas d'utilisation]]%%
+%%- [[Diagramme états-transitions]]%%
+%%- [[Diagramme d'activité]]%%
 
 

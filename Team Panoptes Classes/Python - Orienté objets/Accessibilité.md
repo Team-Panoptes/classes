@@ -47,22 +47,22 @@ voici la classe car en C#
 ```csharp
 class Car: Vehicle {
 	
-	public float fuel = 100.0f
-	public float consumption = 0.05f
+	public float fuel = 100.0f;
+	public float consumption = 0.05f;
 
 	public Car(): base(100){
-		fuel = 100
-		consumption = 0.05
+		fuel = 100;
+		consumption = 0.05;
 	}
 
 	public void Ride(duration){
-		base(duration)
-		float fuelConsumed = consumption duration speed
-		fuel -= fuelConsumed
+		base(duration);
+		float fuelConsumed = consumption duration speed;
+		fuel -= fuelConsumed;
 	}
   
 	public FillTank(fuel_volume){
-		fuel += fuel_volume
+		fuel += fuel_volume;
 	}
 }
 ```
@@ -70,9 +70,9 @@ class Car: Vehicle {
 Si `fuel`, `Ride`ou `FillTank` n'était pas public, je ne pourrais pas exécuter le code suivant car je n'auras pas accès à cet attribut.
 
 ```csharp
-Car car = new()
-car.Ride(6)
-car.FillTank(30)
+Car car = new();
+car.Ride(6);
+car.FillTank(30);
 Console.WriteLine($"Fuel: {car.fuel}");
 ```
 
@@ -142,22 +142,22 @@ En C#, comme pour `public`, afin de rendre un attribut ou une méthode privée o
 ```csharp
 class Car: Vehicle {
 	
-	public float fuel = 100.0f
-	public private consumption = 0.05f
+	public float fuel = 100.0f;
+	public private consumption = 0.05f;
 
 	public Car(): base(100){
-		fuel = 100
-		consumption = 0.05
+		fuel = 100;
+		consumption = 0.05;
 	}
 
 	public void Ride(duration){
-		base(duration)
-		float fuelConsumed = consumption duration speed
-		fuel -= fuelConsumed
+		base(duration);
+		float fuelConsumed = consumption duration speed;
+		fuel -= fuelConsumed;
 	}
   
 	private FillTank(fuel_volume){
-		fuel += fuel_volume
+		fuel += fuel_volume;
 	}
 }
 ```
@@ -200,21 +200,21 @@ En C#,  c'est le mot clé `protected` qui va rendre un attribut ou un méthode p
 ```csharp
 class Car: Vehicle {
 	
-	protected float fuel = 100.0f
-	public private consumption = 0.05f
+	protected float fuel = 100.0f;
+	public private consumption = 0.05f;
 
 	public Car(): base(100){
-		fuel = 100
-		consumption = 0.05
+		fuel = 100;
+		consumption = 0.05;
 	}
 
 	public void Ride(duration){
-		base(duration)
-		float fuelConsumed = consumption duration speed
-		fuel -= fuelConsumed
+		base(duration);
+		float fuelConsumed = consumption duration speed;
+		fuel -= fuelConsumed;
 	}
   
 	protected FillTank(fuel_volume){
-		fuel += fuel_volume
+		fuel += fuel_volume;
 	}
 }
