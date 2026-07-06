@@ -36,6 +36,8 @@ Comme on peut le voir avec le diagramme si dessus, les messages partent d'une li
 
 Chaque message peut avoir une réponse. Par exemple si une fonction a un retour. La fonction sera le message et la réponse sera le retour.
 
+%%
+
 ```mermaid
 ---
 config:
@@ -55,6 +57,9 @@ messageBox->>messageBox : Hide(false)
 messageBox-->>-controler : 
 
 ```
+Mermaid crée une erreur sur le site donc j'ai créer un image en attendant
+%%
+![[diagram_sequence_version_problem.png]]
 
 Dans ce diagramme on peut voir qu'il est totalement possible qu'une entité s'envoie un message. Ici `messageBox` envoie le message `Hide` a elle-même. 
 

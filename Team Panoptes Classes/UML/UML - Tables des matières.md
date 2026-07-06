@@ -9,9 +9,11 @@
 - Diagramme de classes:
 	- [[Diagramme de classes - bases|Bases]]
 	- [[Diagramme de classes - héritage|Héritage]]
-	- [[Diagramme de classes - Composition|Composition]]
-	- [[Analyse|Analyse]]
-	- [[Classe abstraite|Classe abstraite]]
+	- [[Diagramme de classes - Liens|Composition]]
+- [[Exercices - Diagramme de classes]]
+	%% - [[Analyse|Analyse]]%%
+	%%- [[Classe abstraite|Classe abstraite]]%%
+	%%- [[Polymorphisme]]%%
 - [[Diagramme de cas d'utilisation]]
 %%- [[Diagramme états-transitions]]%%
 - [[Diagrammes de séquence]]
