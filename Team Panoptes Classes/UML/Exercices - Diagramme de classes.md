@@ -4,7 +4,7 @@ Notre programme aura les classes suivantes:
 ### Queen
 Cette classe à les attributs suivants:
 - `alive`: qui est soit vrai, soit faux
-- money: qui représente le nombre de pièce d'or possédée.
+- `money`: qui représente le nombre de pièce d'or possédée.
 	     
 Cette classe à les fonctions suivantes:
 - `command` qui prends un `Farmer` ou `Assassin` ou une `Queen` en argument et qui renvoie vrai ou faux en fonction de si l'ordre a été accompli ou non.

@@ -1,8 +1,11 @@
 ## 1. Voici la procédure décrivant une commande  dans un restaurant "fast-food"
 
 Le client commande un repas, le caissier entre la commande du client dans le système et ensuite annonce au client le montant de sa commande.
+
 Le client paie, une fois le paiement encaisser le caissier informe le système que la commande doit aller en cuisine.
+
 Le cuistot récupère la commande et commence à prépare le repas.
+
 Une fois le repas prêt, il informe le client que celui-cis est disponible. 
 Le repas est manger par le client.
 
