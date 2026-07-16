@@ -1,3 +1,6 @@
+---
+publish: true
+---
 En essayant d'activer l'[[environnement virtuel]], vous pourriez tomber face à une erreur de permissions, du type suivant:
 
 ```Powershell

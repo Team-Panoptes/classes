@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Lisez les spécifications et puis créez les diagrammes demandés.
 
 

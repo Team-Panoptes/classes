@@ -1,3 +1,6 @@
+---
+publish: true
+---
 ## 1. Voici la procédure décrivant une commande dans un restaurant "fast-food"
 
 Le client commande un repas, le caissier entre la commande du client dans le système et ensuite annonce au client le montant de sa commande.

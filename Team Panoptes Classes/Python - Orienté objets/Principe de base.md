@@ -1,3 +1,6 @@
+---
+publish: true
+---
 La programmation orientée objet (POO) est un l'un des paradigme majeur de la programmation informatique. 
 Elle consiste en la définition et l'interaction de briques de programme appelées objets.
 Un objet représente un concept, une idée ou toute entité du monde physique, comme une voiture, une personne ou encore une page d'un livre. Il possède une structure interne et un comportement, et il sait interagir avec ses pairs. 

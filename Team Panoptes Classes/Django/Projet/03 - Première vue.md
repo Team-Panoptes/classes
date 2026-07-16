@@ -1,3 +1,6 @@
+---
+publish: true
+---
 À ce stade, le fichier `views.py`de l'application `books` est pratiquement vide, et doit ressembler à ça :
 
 ```python

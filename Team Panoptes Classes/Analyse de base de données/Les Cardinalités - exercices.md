@@ -1,1 +1,4 @@
+---
+publish: true
+---
 Ajouté les cardinalités au 3 exercices précédemment fait.

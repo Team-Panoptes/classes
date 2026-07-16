@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Les clés étrangères sont des copies de clé primaire qui vont symbolisé la relation entre deux tables.
 
 ## Relations

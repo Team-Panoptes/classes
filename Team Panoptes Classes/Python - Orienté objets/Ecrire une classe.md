@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Voici le code de la classe `Calculator`
 
 ```python

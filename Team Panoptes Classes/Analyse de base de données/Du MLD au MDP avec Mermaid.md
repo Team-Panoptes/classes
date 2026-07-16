@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Pour le MPD, je vais utiliser Mermaid, bien que j'aime la flexibilité d'Excalidraw, pour passer écrire un modéle physique de données, il serait devenu trop lourd, là où Mermaid est plus souple.
 
 Mermaid est un language qui permet de décrire des diagrammes et qui va vous le "dessiner" pour vous.

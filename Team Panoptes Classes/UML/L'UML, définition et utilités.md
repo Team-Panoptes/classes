@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 UML veut dire **U**nified **M**odeling **L**anguage (Langage de Modélisation Unifié). 
 

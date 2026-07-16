@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Si on devait à nouveau vulgariser, on peut dire qu'une classe est un type d'objet.
 
 ```python

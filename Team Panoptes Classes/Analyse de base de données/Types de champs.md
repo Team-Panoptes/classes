@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Il y a grand nombre de type de champs voici une [liste pour MySQL](https://tutoriels.edu.lat/pub/mysql/mysql-data-types/mysql-types-de-donnees)
 
 Ce qui est important lorsque vous construisez votre MPD c'est de bien choisir le type de champ pour paré au plus efficace et surtout pour alléger un maximum vos données.

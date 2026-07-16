@@ -1,3 +1,6 @@
+---
+publish: true
+---
 En Python, on a croisé déjà des tas d'objets sans s'en rendre compte.
 La moindre variable est un objet.
 

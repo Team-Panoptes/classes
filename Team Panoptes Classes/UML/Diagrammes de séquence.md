@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Un diagramme de séquence est un diagramme qui montre les interactions entre les entités lors d'une séquence de la vie de ces entités. Cela permet de voir qui fait quoi et qui dépend de quoi.
 
 On utilisera ce diagramme pour représenté un morceau du code de manière très *high level*. 

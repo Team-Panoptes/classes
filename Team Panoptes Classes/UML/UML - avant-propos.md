@@ -1,3 +1,6 @@
+---
+publish: true
+---
 UML est un language destiné à faciliter la conception des documents nécessaires au développement d'un logiciel orienté objet.
 
 Il présente deux avantages majeurs:

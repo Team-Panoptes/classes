@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Une vue est une fonction ou une classe Python qui reçoit une requête HTTP, et qui fournit en retour une réponse (souvent une page HTML).
 
 Elles sont souvent dans un fichier nommé `views.py`.

@@ -1,3 +1,6 @@
+---
+publish: true
+---
 L'un des piliers de l'orienté objet sont les classes et leur mécanisme d'héritage.
 
 Il est très facile de se perdre dans l'arborescence des classes et dans la manière dont celles-ci interagissent entre-elles.

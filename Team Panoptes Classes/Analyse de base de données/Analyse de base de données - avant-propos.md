@@ -1,3 +1,6 @@
+---
+publish: true
+---
 ## Objectif du cours
 
 Ce cours à pour but de vous familiarisé avec l'univers des bases de données en générales et de vous faire comprendre leur utilités.

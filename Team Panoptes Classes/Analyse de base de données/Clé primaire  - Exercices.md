@@ -1,1 +1,4 @@
+---
+publish: true
+---
 Reprenez les deux dictionnaires de donnés que vous avez fait dans les exercices [[Dictionnaire de données - Exercices 1]] et [[Dictionnaire de données - Exercices 2]] et essayé d'en déterminer la clé primaire pour chacun d'eux.

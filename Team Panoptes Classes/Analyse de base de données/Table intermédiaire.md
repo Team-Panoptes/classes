@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Il est impossible pour une base de données relationnels de modélisé les relations de N à N.
 Il ne serait pas possible d'avoir une clé étrangère qui pointe sur plusieurs clés primaires à la fois.
 

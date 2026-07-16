@@ -1,3 +1,6 @@
+---
+publish: true
+---
 # Qu'est-ce que c'est ?
 
 En Python, un environnement virtuel est un dossier contenant une installation isolée de O-Python et les packages correspondants.

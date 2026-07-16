@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Donc pour passé du MCD au MLD, les étapes sont assez simples.
 1. Repérer tout les relations 1 ou 0 à N.
 	Pour chaque relation 1 à N:

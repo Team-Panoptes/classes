@@ -1,3 +1,6 @@
+---
+publish: true
+---
 ## 1. Réaliser un diagramme de classes correspondant au spécifications suivantes:
 
 Notre programme aura les classes suivantes:

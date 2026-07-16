@@ -1,3 +1,6 @@
+---
+publish: true
+---
 ## Introduction
 - [[UML - avant-propos|Avant-Propos]]
 - [[L'UML, définition et utilités]]

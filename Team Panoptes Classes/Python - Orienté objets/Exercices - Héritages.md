@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Pour les exercises suivants, on va reprendre notre classe `Véhicle`
 
 ```python

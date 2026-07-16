@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Bien qu'on se soit déjà penché sur le cas de la clé primaire lors de la réalisation du MCD, il est important de revenir dessus.
 
 Par convention, la clé primaire peut s'abréger en `PK` (Primary Key) ou `ID` (Identifier),.

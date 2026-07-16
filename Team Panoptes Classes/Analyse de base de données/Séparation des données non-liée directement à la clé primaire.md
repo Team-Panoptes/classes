@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Lorsqu'on a séparé toute les données répétitives de l'entité principale et des entités qui en découle, on va pouvoir passé à la prochaine étape.
 
 Ce étape consiste à extraire les données qui sont dans une entité mais qui ne sont pas directement à celle-ci.

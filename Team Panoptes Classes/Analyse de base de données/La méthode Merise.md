@@ -1,3 +1,6 @@
+---
+publish: true
+---
 ## Qu'est ce que la méthode Merise
 
 Il s'agit d'une méthodologie de modélisation française qui a été conçue dans les années 70-80, principalement utilisée pour la conception de bases de données.  

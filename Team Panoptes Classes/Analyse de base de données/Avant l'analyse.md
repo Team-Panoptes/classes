@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Lorsque vous faite une analyse de base de données, c'est qu'il va y avoir une (ou plusieurs) applications qui vont aller lire cette base de données. Très souvent une application vient d'un besoin lié à un client. 
 
 La notion de client est assez vaste, ça peut être une personne qui vous paie pour faire ce travail, ça peut être un client interne à l'endroit où vous travailler ou encore une personne fictive car l'application est dédiée à des personnes qui ne sont pas à l'origine de la demande.

@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 ## Généralisation
 Pour symboliser l'héritage nous utiliserons une flèche avec une pointe en triangle vide (non-coloré).

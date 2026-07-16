@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Bienvenue dans les supports de cours fournis par Team Panoptes.
 
 Cliquez sur l'intitulé du cours pour commencer à explorer la thématique !

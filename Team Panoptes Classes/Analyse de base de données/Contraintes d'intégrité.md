@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Pour être sûr que la base de données est remplie comme elle le devrait, on dispose de contraintes qui vont s'assurer de l'intégrité des données.
 
 Voici trois des principales contraintes d'intégrité

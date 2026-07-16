@@ -1,3 +1,6 @@
+---
+publish: true
+---
 La clé primaire est l'un des piliers des bases de données.
 
 

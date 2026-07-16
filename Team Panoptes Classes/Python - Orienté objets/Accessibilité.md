@@ -1,3 +1,6 @@
+---
+publish: true
+---
 En Python tout est accessible de base, mais ce n'est pas le comportement adopté par tout les language.
 
 Pour pouvoir comprendre complètement l'orienté objet, il faut aussi qu'on parle d'accessibilité d'attribut et de méthode.

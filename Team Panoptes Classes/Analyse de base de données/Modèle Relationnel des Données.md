@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Le **MRD** ou modèle relationnel de données est une version textuelle du MLD. Il s'agit d'une "fausse" étape, car le MRD n'est pas un schéma à proprement parler. Souvent, on parle plutôt de MLD textuel pour désigner la même chose.
 
 Le MRD fait office d'inventaire de table, c'est une autre façon d'aborder le MLD.

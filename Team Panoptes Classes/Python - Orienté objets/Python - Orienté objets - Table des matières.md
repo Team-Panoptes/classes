@@ -1,3 +1,6 @@
+---
+publish: true
+---
 - [[Principe de base]]
 - [[Objet]]
 - [[Classe]]

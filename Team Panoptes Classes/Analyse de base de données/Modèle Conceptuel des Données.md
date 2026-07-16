@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Le MCD  ou Modèle Conceptuel de Données est un schéma utilisé pour représenter les données extraites du dictionnaire de données.
 
 Il permet de regrouper les différentes informations en entités et de montrer les relations entre ces entités.

@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Les cardinalités sont une indication du nombre d'éléments avec laquelle une entité peut-être en relation avec une autre.
 
 Exemple: Une Personne habite dans une et une seule ville, on dira que la cardinalité est **1, 1** 

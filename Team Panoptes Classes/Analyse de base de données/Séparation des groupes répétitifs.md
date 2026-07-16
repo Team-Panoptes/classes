@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Il y a plusieurs étapes pour effectuer la séparation en entité. Il faut les suivre dans l'ordre pour être sûr de ne rien manquer.
 
 ## Qu'est-ce qu'un groupes répétitifs

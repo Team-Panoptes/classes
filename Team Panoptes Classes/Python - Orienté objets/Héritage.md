@@ -1,3 +1,6 @@
+---
+publish: true
+---
 L'un des principes fondateurs de l'orienté objet est l'héritage. Ce mécanisme permet à une  classe de récupérer le comportement d’une autre classe.
 
 De ce manière la classe "parent" transmettra à la classe "enfant" une série de méthodes et d'attributs.

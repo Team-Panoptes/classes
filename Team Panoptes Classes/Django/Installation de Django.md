@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Avant toute chose, il faut installer Django.
 
 De façon générale, on utilise le gestionnaire de packages fourni avec Python, `pip`. Mais comme un projet Django est plus complexe que quelques scripts isolés, on se doit d'organiser un peu mieux notre projet.

@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Flow chart en anglais.
 
 Le diagramme de flux n'est pas vraiment un diagramme UML à proprement, mais il en a inspiré quelques-uns et même si ce n'est pas de l'UML, il est important de savoir le lire.

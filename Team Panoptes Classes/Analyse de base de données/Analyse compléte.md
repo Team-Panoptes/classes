@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Reprenons notre formulaire d'inscription au club de basket.
 
 ![[club de basket.jpg]]

@@ -1,3 +1,6 @@
+---
+publish: true
+---
 En dehors de la généralisation, il y a d'autres liens possibles pour un diagramme de classes.
 
 Ces liens sont là pour représenté les relations entre les classes.

@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Nous allons créer un petit projet qui permettra de présenter un catalogue de livres.
 
 Après avoir suivi les instructions d'[[Installation de Django]], et avoir configuré et activé votre environnement virtuel, vous pouvez créer le projet via votre terminal.

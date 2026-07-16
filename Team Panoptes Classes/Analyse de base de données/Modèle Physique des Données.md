@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Le **MPD**  ou Modèle Physique de Données est un schéma qui permet de représenter les données de manière physique, c'est-à-dire en tenant compte des spécificités du SGBD _(Système de Gestion de Base de Données)_ [^1] utilisé. 
 
 Il va nous permettre de représenter les tables, les colonnes, les types de données, les index et les contraintes d'intégrité.

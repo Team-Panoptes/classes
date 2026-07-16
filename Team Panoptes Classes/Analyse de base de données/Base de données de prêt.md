@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Vous voudriez faire une base de données pour gérer les emprunts que vous faites et qui vous sont faits.
 
 Vous désirez gérer deux types d'objets:

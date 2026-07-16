@@ -1,3 +1,6 @@
+---
+publish: true
+---
 Produisez les documents d'analyse suivant pour ce formulaire
 - Dictionnaire de données
 - MCD

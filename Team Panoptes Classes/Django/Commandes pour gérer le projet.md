@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 > [!tip] Où lancer ces commandes ?
 > Toutes les commandes qui suivent doivent être lancées dans le dossier contenant le fichier `manage.py`.

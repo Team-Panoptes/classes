@@ -1,3 +1,6 @@
+---
+publish: true
+---
 ## 1. Ecrivez le diagramme de flux des code Python suivant
 
 ```python
