@@ -14,9 +14,7 @@ De plus, il existe aussi les [[URLs]], qui détermine quelle page du site corres
 
 Voici schématiquement comment les différents élements principaux d'une application Django interagissent.
 
-![[test.svg]]
-
-![[Fonctionnement général de Django 2026-04-16 02.27.07.excalidraw.svg]]
+![](django_structure.excalidraw.svg)
 
 1. Le serveur reçoit une requête d'un utilisateur.
 2. Django interprète l'URL de la requête, et décide quelle vue appeler.

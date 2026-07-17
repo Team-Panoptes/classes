@@ -24,8 +24,8 @@ Reprenons notre formulaire d'inscription au club de basket.
 
 Comme groupe répétitif, il y a les moyens de communication (téléphone et email). On va donc extraire ceux-ci de l'entité principale "Membre"
 
-![[Analyse club de basket 1.excalidraw.svg]]
-%%[[Analyse club de basket 1.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_club_de_basket_1.excalidraw.svg)
+%%[[Analyse_club_de_basket_1.excalidraw|🖋 Edit in Excalidraw]]%%
 
 On pourrait s'étonner que le téléphone du contact n'est pas sorti mais c'est un cas particulier car il n'est pas lié directement au membre mais à la personne de contact. Mais ne vous inquiété pas, il sortira plus tard.
 
@@ -33,25 +33,25 @@ On pourrait s'étonner que le téléphone du contact n'est pas sorti mais c'est 
 
 Il y a deux groupes qui doivent sortir, commençons par les données lié à la localité. C'est un cas d'école, qu'on commence à connaitre.
 
-![[Analyse club de basket 2.excalidraw.svg]]
-%%[[Analyse club de basket 2.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_club_de_basket_2.excalidraw.svg)
+%%[[Analyse_club_de_basket_2.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Ensuite on a la personne de contact. Il est tout a fait possible qu'une personne soit personne de contact pour plusieurs personne donc cela vaut la peine de le sortir.
 
-![[Analyse club de basket 3.excalidraw.svg]]
-%%[[Analyse club de basket 3.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_club_de_basket_3.excalidraw.svg)-
+%%[[Analyse_club_de_basket_3.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Mais quand on regarde bien la personne de contact à un téléphone, qui est u moyen de communication. Donc on pourrait le lier à notre table. De cette manière là, si notre client veut aussi le mail de la personne de contact, c'est déjà fait.
 
-![[Analyse club de basket 4.excalidraw.svg]]
-%%[[Analyse club de basket 4.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_club_de_basket_4.excalidraw.svg)
+%%[[Analyse_club_de_basket_4.excalidraw|🖋 Edit in Excalidraw]]%%
 
 ## Cardinalité
 
 Ensuite on ajoute les cardinalités
 
-![[Analyse club de basket 5.excalidraw.svg]]
-%%[[Analyse club de basket 5.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_club_de_basket_5.excalidraw.svg)
+%%[[Analyse_club_de_basket_5.excalidraw|🖋 Edit in Excalidraw]]%%
 
 ## Agrégation des données
 
@@ -59,12 +59,12 @@ Dans ce cas, on voit que l'"Entité" membre et l'entité "Personne de Contact" s
 Il serait donc possible les fusionnée pour n'en faire même entité. La relation entre les membres et les personnes de contact serait une relation qui pointent sur l'entité elle-même. Ceci est tout a fait possible et apparaît souvent en fin d'analyse.
 L'exemple le plus courant est celui des enfants et des parents, on est enfants de quelqu'un e
 
-![[enfant-parent.excalidraw.svg]]
-%%[[enfant-parent.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](enfant-parent.excalidraw.svg)
+%%[[enfant-parent.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Et donc on peut faire de même avec la personne de contact et le membre
 
-![[Analyse club de basket 6.excalidraw.svg]]
-%%[[Analyse club de basket 6.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_club_de_basket_6.excalidraw.svg)
+%%[[Analyse_club_de_basket_6.excalidraw|🖋 Edit in Excalidraw]]%%
 
 De plus, cela permet que les personnes soit membres aussi ce qui est plus que probable.

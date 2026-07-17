@@ -11,18 +11,18 @@ Donc nous aurons toujours des relations de 1 (ou 0) à N.
 
 Prenons deux tables bien connues:
 
-![[Analyse personne - MLD - 1.excalidraw.svg]]
-%%[[Analyse personne - MLD - 1.excalidraw|🖋 Edit in Excalidraw]]%%
+![](Analyse_personne_-_MLD_-_1.excalidraw.svg)
+%%[[Analyse_personne_-_MLD_-_1.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Dans le MLD, les relations se simplifie pour ne laisser que la ligne entre les deux tables. ^c0c90a
 
-![[Analyse personne - MLD - 2.excalidraw.svg]]
-%%[[Analyse personne - MLD - 2.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_personne_-_MLD_-_2.excalidraw.svg)
+%%[[Analyse_personne_-_MLD_-_2.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Certains aiment bien garder une trace de la relation sur forme d'un petit texte, mais personnellement je ne le fais que très rarement  (lorsque la relation n'est pas du tout claire, et même dans ce cas, on peut toujours faire référence au MCD pour clarifier).
 
-![[Analyse personne - MLD - 2 - bis.excalidraw.svg]]
-%%[[Analyse personne - MLD - 2 - bis.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_personne_-_MLD_-_2_-_bis.excalidraw.svg)
+%%[[Analyse_personne_-_MLD_-_2_-_bis.excalidraw|🖋 Edit in Excalidraw]]%%
 
 ## Création de la clé étrangère
 
@@ -39,8 +39,8 @@ La "mère" va transmettre une copie de sa clé primaire à sa fille, c'est cette
 
 Le champ qui en résultera sera noté avec un `#` devant pour qu'on sache que c'est une clé étrangère [^1]
 
-![[Analyse personne - MLD - 3.excalidraw.svg]]
-%%[[Analyse personne - MLD - 3.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_personne_-_MLD_-_3.excalidraw.svg)
+%%[[Analyse_personne_-_MLD_-_3.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Par convention, la clé étrangère peut s'abréger en `FK` (Primary Key) ou `XID` (le X est our Xeno (étrangé en grecque) et le ID est pour Identifier).
 J'ai une petite préférence pour `XID` mais c'est personnel, libre à vous de choisir `FK`. 

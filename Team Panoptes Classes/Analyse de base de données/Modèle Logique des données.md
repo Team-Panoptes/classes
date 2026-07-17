@@ -10,5 +10,5 @@ Le **MLD** ou modèle logique de données est un schéma basé directement sur l
 Dans le MLD, nous ne parlerons plus d'entité, mais de **tables**, et nous ne parlerons plus d'attribut, mais de **champs**. 
 Vous allez voir c'est globalement la même chose.
 
-![[MCD to MLD.excalidraw.svg]]
-%%[[MCD to MLD.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](MCD_to_MLD.excalidraw.svg)-
+%%[[MCD_to_MLD.excalidraw|🖋 Edit in Excalidraw]]%%

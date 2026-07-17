@@ -48,8 +48,8 @@ L'âge est une valeur qui peut se calculer  partir de la date de naissance et de
 
 De la même manière, si le formulaire demandait le nombre de club de basket fréquenté dans le passé et puis qu'il demandait de les listé les clubs par la suite.
 
-![[âge dans le formulaire.excalidraw.svg]]
-%%[[âge dans le formulaire.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](âge_dans_le_formulaire.excalidraw.svg)
+%%[[âge_dans_le_formulaire.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Il est facile pour un programme informatique (un pour un humain d'ailleurs) de compter le nombre de clubs, donc c'est une valeur calculée aussi.
 
@@ -57,8 +57,8 @@ Une fois qu'elles sont identifiées, elle doivent être retirée du dictionnaire
 
 Vous pouvez garder une liste des valeurs calculées sur un document à part afin de vous en souvenir, mais pour l'analyse de base de données, elle ne sont absolument pas utiles.
 
-![[autres clubs.excalidraw.svg]]
-%%[[autres clubs.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](autres_clubs.excalidraw.svg)
+%%[[autres_clubs.excalidraw|🖋 Edit in Excalidraw]]%%
 ### Valeurs obligatoires
 
 Quelque chose qui va nous aidez par la suite, c'est de repérer les valeurs obligatoire, en gros, les valeurs qui doivent être remplie sans quoi le formulaire n'est pas valide.

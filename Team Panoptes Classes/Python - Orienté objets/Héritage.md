@@ -111,8 +111,8 @@ Dans `__init__`, on fait appelle à la une fonction `super` avant d'invoquer un 
 
 `super` est une fonction particulière qui fait appel à la classe `parent`. Quand on écrit `super().__init__(15)`, c'est comme si je demandait à jouer le constructeur de `Vehicle` en lui passant `15` en paramètre.
 
-![[Explication - Super .22.30.excalidraw.svg]]
-%%[[Explication - Super .22.30.excalidraw|🖋 Edit in Excalidraw]]%%
+![](Explication_-_Super_.22.30.excalidraw.svg)
+%%[[Explication_-_Super_.22.30.excalidraw|🖋 Edit in Excalidraw]]%%
 
 En gros en utilisant `super().__init__(15)`, on appelle le constructeur du parent avec le paramètre 15. 
 Ce qui aura pour effet de créer l’attribut `speed` avec `15` dedans et l’attribut `distance` avec la valeur `0`.

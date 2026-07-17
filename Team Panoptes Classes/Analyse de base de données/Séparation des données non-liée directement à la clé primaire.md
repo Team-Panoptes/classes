@@ -10,20 +10,20 @@ Pour se faire, il faut se demandé si un attribut ou un groupe pourrait exister 
 Imaginons qu'on est commencé l'analyse d'une base de donnée pour une bibliothèque.
 On a fini de [[Séparation des groupes répétitifs|séparer les groupes répétitifs]], on a trois entité, une pour les livres, une pour les auteurs et une autre pour les personnes.
 
-![[Analyse biblioteque 1.excalidraw.svg]]
-%%[[Analyse biblioteque 1.excalidraw|🖋 Edit in Excalidraw]]%%
+![](Analyse_biblioteque_1.excalidraw.svg)
+%%[[Analyse_biblioteque_1.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Pour commencer, prenons l'entité **Livre**.
 L'éditeur par exemple peut concerner plusieurs livres (on espère en tout cas pour l'éditeur). Donc c'est un bon candidat pour en faire une entité.
 
-![[Analyse bibliotheque 2.excalidraw.svg]]
-%%[[Analyse bibliotheque 2.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_bibliotheque_2.excalidraw.svg)
+%%[[Analyse_bibliotheque_2.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Dans notre entité "Personne", il y a de bonne chances qu'une localité pourrait être partagée par plusieurs personnes. 
 C'est donc une entité qui doit sortir de l'entité "Personne", et comme la localité et le code postal sont lié, ils vont sortir ensemble de l'entité Personne.
 
-![[Analyse bibliotheque 3.excalidraw.svg]]
-%%[[Analyse bibliotheque 3.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_bibliotheque_3.excalidraw.svg)
+%%[[Analyse_bibliotheque_3.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Une fois qu'on a faite cette exercice pour chaque entité, et pour chaque entité nouvellement crée.
 

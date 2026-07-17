@@ -8,8 +8,8 @@ Le MRD fait office d'inventaire de table, c'est une autre façon d'aborder le ML
 Vous devez écrire une ligne par table. La ligne commence par le nom de la table puis entre parenthèse tout les champs de la table.
 	- Le ou les champs de la clé primaire sont souligné et les clés étrangère sont précédées d'un `#`. Comme pour le MLD
 
-![[MLD to MRD - Part A.excalidraw.svg]]
-%%[[MLD to MRD - Part A.excalidraw|🖋 Edit in Excalidraw]]%%
-![[MLD to MRD - Part B.excalidraw.svg]]
-%%[[MLD to MRD - Part B.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](MLD_to_MRD_-_Part_A.excalidraw.svg)
+%%[[MLD_to_MRD_-_Part_A.excalidraw|🖋 Edit in Excalidraw]]%%
+![](MLD_to_MRD_-_Part_B.excalidraw.svg)
+%%[[MLD_to_MRD_-_Part_B.excalidraw|🖋 Edit in Excalidraw]]%%
 Ce modelé ressemble à une ébauche de ce que sera le SQL qui créera les tables suite à notre analyse.

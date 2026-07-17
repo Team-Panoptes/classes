@@ -22,10 +22,10 @@
   "autosave": true,
   "autosaveIntervalDesktop": 60000,
   "autosaveIntervalMobile": 30000,
-  "drawingFilenamePrefix": "Drawing ",
-  "drawingEmbedPrefixWithFilename": true,
-  "drawingFilnameEmbedPostfix": " ",
-  "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss",
+  "drawingFilenamePrefix": "Drawing",
+  "drawingEmbedPrefixWithFilename": false,
+  "drawingFilnameEmbedPostfix": " Drawing",
+  "drawingFilenameDateTime": "_YYYY-MM-DD_HH-mm",
   "useExcalidrawExtension": true,
   "cropSuffix": "",
   "cropPrefix": "cropped_",
@@ -100,7 +100,7 @@
   "autoexportExcalidraw": false,
   "embedType": "SVG",
   "embedMarkdownCommentLinks": true,
-  "embedWikiLink": true,
+  "embedWikiLink": false,
   "embedPlaceholderImage": true,
   "syncExcalidraw": false,
   "experimentalFileType": false,
@@ -121,7 +121,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.22.3",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.25.3",
     "libraryItems": [
       {
         "id": "GA_MLIwBQHddX4PWsnosN",

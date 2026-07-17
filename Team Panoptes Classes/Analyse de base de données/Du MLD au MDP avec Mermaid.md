@@ -20,8 +20,8 @@ Pour illustrer mes exemples, je vais partir du MLD de notre gestion d'étudiant.
 
 Pour illustrer mes exemples, je vais utiliser le MLD de notre gestion d'étudiant.
 
-![[MLD to MPD.excalidraw.svg]]
-%%[[MLD to MPD.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](MLD_to_MPD.excalidraw.svg)
+%%[[MLD_to_MPD.excalidraw|🖋 Edit in Excalidraw]]%%
 
 ## erDiagram
 

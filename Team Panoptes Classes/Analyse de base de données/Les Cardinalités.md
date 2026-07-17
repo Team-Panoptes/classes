@@ -6,13 +6,13 @@ Les cardinalités sont une indication du nombre d'éléments avec laquelle une e
 Exemple: Une Personne habite dans une et une seule ville, on dira que la cardinalité est **1, 1** 
 Par contre, une ville peut être habité par une ou plusieurs personnes, on dira que la cardinalité est de **1, N**.
 
-![[Analyse personne.excalidraw.svg]]
-%%[[Analyse personne.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_personne.excalidraw.svg)
+%%[[Analyse_personne.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Autre Exemple: Un livre peut-être emprunter par 0 à plusieurs personnes, on dira que la cardinalité est de **0, N** et une personne peut emprunter entre 1 et plusieurs livres, on dira que la cardinalité est de **1, N**.
 
-![[Analyse bibliotheque 4.excalidraw.svg]]
-%%[[Analyse bibliotheque 4.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_bibliotheque_4.excalidraw.svg)
+%%[[Analyse_bibliotheque_4.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Les cardinalités vont être importante pour le moment où l'on va passer au modèle physique des données.
 

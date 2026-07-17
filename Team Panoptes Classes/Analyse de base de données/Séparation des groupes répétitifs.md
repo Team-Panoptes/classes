@@ -8,8 +8,8 @@ Un groupe répétitifs est un groupe de données qui peux se répéter plusieurs
 
 Le cas d'école classique est la facture.
 
-![[facture.excalidraw.svg]]
-%%[[facture.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](facture.excalidraw.svg)
+%%[[facture.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Pour ce document, le dictionnaire de données est assez simple:
 - facture id [^1]
@@ -45,8 +45,8 @@ Donc ce cas-ci aucune des données n'est une candidate valable, donc on va en cr
 
 Donc l'article id,  le nom de l'article  et le prix unitaire vont former une entité et elle sera en relation avec l'entité "Facture"
 
-![[Analyse facture 1.excalidraw.svg]]
-%%[[Analyse facture 1.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_facture_1.excalidraw.svg)
+%%[[Analyse_facture_1.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Pour schématiser une entité on dessine un rectangle avec une en-tête pour le nom de l'entité.
 Dans le rectangle on notera les différentes données.  Les données sont nommées attribut quand elles sont dans une entités.
@@ -59,8 +59,8 @@ Ici une Facture **contient** des articles et des articles sont **contenu** dans 
 
 Il reste la quantité à gérer. Cette attribut n'appartient ni à Facture ni à Article, elle appartient à la relation. Cette donnée donc on va l'inscrire dans la relation elle-même.
 
-![[Analyse facture 2.excalidraw.svg]]
-%%[[Analyse facture 2.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_facture_2.excalidraw.svg)
+%%[[Analyse_facture_2.excalidraw|🖋 Edit in Excalidraw]]%%
 
 ### Groupes répétitifs cachés
 
@@ -69,15 +69,15 @@ Parfois, comme pour les factures, les groupes répétitifs sont évident, parfoi
 Imaginons un formulaire pour louer des emplacements de parking dans un garage.
 Dans ce garage les locataires n'ont droit d'inscrire que deux voiture n'avez droit qu'à deux voitures.
 
-![[Formulaire garage.excalidraw.svg]]
-%%[[Formulaire garage.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Formulaire_garage.excalidraw.svg)
+%%[[Formulaire_garage.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Dans ce cas, les données pour la voiture 1 et la voiture 2 sont considérées comme répétitives (il y en a deux, exactement les mêmes donc elles se répètent)
 
 Et donc nous obtiendront un schéma de ce type.
 
-![[Analyse garage.excalidraw.svg]]
-%%[[Analyse garage.excalidraw.md|🖋 Edit in Excalidraw]]%%
+![](Analyse_garage.excalidraw.svg)
+%%[[Analyse_garage.excalidraw|🖋 Edit in Excalidraw]]%%
 
 Noté que dans ce cas aucun attribut n'est resté lié à la relation car tous appartenait à l'entité voiture.
 
