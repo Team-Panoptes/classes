@@ -2,5 +2,7 @@
   "better-export-pdf",
   "obsidian-excalidraw-plugin",
   "obsidian-style-settings",
-  "quartz-syncer"
+  "quartz-syncer",
+  "dataview",
+  "obsidian-release-timeline"
 ]
