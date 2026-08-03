@@ -1,14 +1,20 @@
-## Avant propos
+## 1. Avant propos
+
+Le GDD (Game Design Document) est un document de référence qui est censé répondre à toutes les questions que pourrait se poser une personne qui travaille sur votre jeu.
 
 Quand vous complétez votre Game Design Document (GDD), gardez en tête que ce document doit pouvoir être lu par une autre personne, qu'elle doit pouvoir le comprendre et réaliser le jeu à votre place. 
-Le GDD est le document de référence qui est censé répondre à toutes les questions que pourrait se poser une personne qui travaille sur votre jeu.
 
- Il est évident qu'on ne peut pas penser à tout, et donc votre GDD connaîtra plusieurs itération et c'est totalement normale. Dans le cadre de ce travail, on vous propose de nous envoyer votre GDD le plus souvent possible pour qu'on puisse itérer ensemble.
- 
-## Les points importants
+Il est évident qu'il est très difficile de concevoir tout un jeu du premier coup, et en conséquence votre GDD est un document vivant, qui connaîtra plusieurs itérations. C'est également comme ça que les studios professionnels fonctionnent: le GDD permet à l'équipe de dialoguer et d'adapter au fur et à mesure les détails du projet.
 
-Ici on va détailler ce que votre GDD devrait contenir.
+Dans le cadre d'un projet de fin de formation, nous vous suggérons de nous envoyer votre GDD le plus souvent possible afin que nous puissions justement itérer avec vous sur les différents points du document.
+
+##  2. Les points importants
+
+Ici&, nous on va détailler ce que votre GDD devrait contenir.
 Il ne s'agit en rien d'une liste exhaustive, vous avez totalement le droit de mettre dans votre document autant de sections que vous désirez.
+
+> [!INFO] Examples
+> En plus de la structure détaillée dans ce document, vous pouvez aussi trouver [de nombreux exemples de GDD sur le net.](https://gamescrye.com/resources/game-design-documents/) Comme toujours, à ne pas répliquer tels quels (les exemples sont parfois lacunaires, ou sont parfois apocryphes), mais vous pouvez y puiser de l'inspiration.
 
 ### Introduction
 
@@ -19,11 +25,11 @@ Pas besoin d'être long mais il faut être précis.
 N'hésitez pas à mentionner le type de contrôle que vous imaginer, le(s) type(s) de caméra(s) qui sera dans votre jeu. Aussi Parlez de la direction artistique.
 C'est aussi le bon moment pour citer des jeux de références. Les références aident le lecteur préciser le contexte.
 
-### Boucle de game play principale
+### Boucle de gameplay principale
 
-Il est important que votre GDD contienne la boucle de game play pricncipale. Si cette boucle n'est pas présente, il va être difficile de mettre en avant l'expérience que vous voulez mettre en avant.
+Il est important que votre GDD contienne la boucle de gameplay principale. Si cette boucle n'est pas présente, il va être difficile de mettre en avant l'expérience que vous voulez mettre en avant.
 
-De même, si vous pensez qu'une partie de la boucle de game play demande une précision ou faire l'objet de sa propre boucle, n'hésitez pas à la détaillée.
+De même, si vous pensez qu'une partie de la boucle de gameplay demande une précision ou faire l'objet de sa propre boucle, n'hésitez pas à la détaillée.
 
 ### Conditions de victoire / défaite
 
@@ -60,7 +66,7 @@ Si votre joueur acquière des capacités durant le jeu (ou même si il en possè
 
 Que ça soit des ennemis, des problèmes à solutionnés, des contraintes. Tout doit apparaître dans le document. Aussi, il est important de décrire le moyen de contournés ces obstacles.
 
-## Mot de la fin
+## 3. Mot de la fin
 
 Le GDD doit couvrir tout ce que vous comptez mettre dans votre projet.
 Vous n'êtes pas obligé de respecter la structure proposée, mais chaque élément doit s'y trouver.
