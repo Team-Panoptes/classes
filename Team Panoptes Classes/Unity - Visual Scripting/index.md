@@ -1,0 +1,25 @@
+## cours 1
+
+- Unity
+	- LTS et Tech stream
+	- Setup de l'éditeur 
+	- Layout
+	- Visual Scripting
+- Unity Hub
+- Visual Scripting
+	- Script Machine
+	- Variables
+		- script
+		- graph
+		- object
+		- app
+		- saved
+	- State Machine
+- GameObject
+- Composant
+	- Paradigme temps réelles (on l'a fait)
+- Script
+	- Serialization des variables
+	- Messages de Unity (Start, Update, Ontrigger...)
+	- Exemple avec rotato-potato
+	- Exercices waypoint cycle avec option yoyo et sans inverse
