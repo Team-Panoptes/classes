@@ -45,7 +45,7 @@ Et si vous avez besoin de travaillez sur un jeu qui est développer avec une anc
 
 ### Type de versions
 
-![[Pasted image 20260806094534.png]]
+![[install_editor_versions.png]]
 
 <small><center>Unity Hub - 2026-08-06</center></small>
 
@@ -68,7 +68,7 @@ Cliquez donc sur le bouton "Install" correspondant.
 
 ## Ajout de modules
 
-![[Pasted image 20260806095049.png]]
+![[add_modules.png]]
 
 Unity vous propose d'ajoutez des modules. Cette décisions n'est pas irrévocables, vous pourrez ajoutez des modules plus tard à votre installation. À vous de voir ce que vous avez besoin.
 
