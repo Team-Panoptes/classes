@@ -15,11 +15,15 @@ Vous aurez l'occasion d'y manipulez les différents éléments s'y trouvant.
 
 ### Hierarchy
 
+^adcd6f
+
 Dans cet onglet se trouve la liste des objets de la scène courante. Ces derniers sont organisés selon une hiérarchie. Nous reviendrons sur cette partie plus tard.
  ![](unity_editor_hierarchy.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](unity_editor_hierarchy.excalidraw.md)%%
 
 ### Inspector
+
+^de0111
 
 C'est dans cette partie que vous trouverez les propriétés de l'objet sélectionné dans la hiérarchie.
 
