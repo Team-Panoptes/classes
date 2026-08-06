@@ -27,7 +27,7 @@ Avant d'aller plus loin, il est important de comprendre une chose: Unity, comme 
 
 Les évènements (ou events anglais) sont des sortes d'impulsions envoyés par l'application pour dire que quelque chose s'est passé. Ici, on peut en voir deux.
 - **On Start**
-- Translate**
+- **On Update**
 
 **On Start** est un évènement qui est envoyé une fois, lors de la première frame où le GameObject est actif.
 **On Update** est envoyé à chaque frames où le GameObject est actif.

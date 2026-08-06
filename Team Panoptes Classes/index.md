@@ -33,3 +33,6 @@ Comment installer Unity.
 ## [[Unity - Editor/index|Unity Editor]]
 
 Passage en revue de Unity Editor.
+## [[Unity - Visual Scripting/index|Visual Scripting]]
+
+Apprendre à faire un jeu en visual scripting avec Unity.
