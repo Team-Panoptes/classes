@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 Chaque fois que vous voudrez créer un nouveau projet, vous allez aller dans la partie "projects" de Unity Hub.
 
