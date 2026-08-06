@@ -1,7 +1,7 @@
 
 ## Anatomie de l'interface
 
-Unity contient 5 zones importantes
+Unity contient 6 zones importantes
 ### Scene
 
 Ce onglet contient la scène en cours d'édition. 
@@ -22,4 +22,24 @@ C'est dans cette partie que vous trouverez les propriété de l'objet sélection
 
 ![](unity_editor_inspector.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](unity_editor_inspector.excalidraw.md)%%
+
+### Project
+
+Ici vous trouverez l'explorateur de votre projet. Chaque fichiers et dossiers dédiés à votre projet ce trouve dans cette section. 
+Notez que Unity ne montre pas tout les fichier, certains fichiers (comme les ".meta") ne sont pas montrer dans cette onglet.
+
+![](unity_editor_project.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](unity_editor_project.excalidraw.md)%%
+
+### Console
+C'est dans cette partie que vous trouverez les erreurs et les messages générés par votre programme.
+![](unity_editor_console.svg)
+%%[🖋 Edit in Excalidraw](unity_editor_console.md)%%
+
+### Menu
+
+La classique barre de menu où vous trouverez les options et les contrôles généraux.
+
+![](unity_editor_menu.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](unity_editor_menu.excalidraw.md)%%
 
