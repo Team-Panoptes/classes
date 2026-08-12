@@ -27,7 +27,7 @@ Par exemple prenons le cube de base de Unity.
 ![](basic_cube.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](basic_cube.excalidraw.md)%%
 
-Ce cube à 4 composants:
+Ce cube a 4 composants:
 - **Transform**: qui gère la position, la rotation et l'échelle (scale) de l'objet.
 - **Mesh Filter**: Qui gère le mesh de l'objet.
 - **Mesh Renderer**: Qui gère l'affichage de l'objet.
